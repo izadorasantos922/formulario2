@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@400;500;700&family=Roboto:ital,wght@0,100;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: "fraunces";
+}
+
+body{
+    background-color: #87CEEB;
+}
+
+form{
+    padding: 15px;
+    width: 40%;
+    max-width: 350px;
+    margin: 100px auto;
+    background-color: rgb(97, 97, 226);
+    border-radius: 10px;
+}
+
+form h1{
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+i{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+
+input {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 75%;
+    display: inline-block;
+}
+
+i{
+    display: inline-block;
+}
+
+
+button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    background-color: #e1edf5;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    color: white;
+    background-color:rgb(35, 35, 185) ;
+}
